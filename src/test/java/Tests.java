@@ -24,4 +24,11 @@ public class Tests {
         assertEquals(7875, day.task1());
         assertEquals(2479, day.task2());
     }
+
+    @Test
+    public void testDay4() {
+        Day day = new Day4();
+        assertEquals(503, day.task1());
+        assertEquals(0, day.task2());
+    }
 }
