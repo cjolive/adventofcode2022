@@ -47,6 +47,10 @@ public class Day4 extends Day {
         Coordinates c1 = new Coordinates(parts[0]);
         Coordinates c2 = new Coordinates(parts[1]);
 
+        if ((c1.end >= c2.start || c1.start >= c2.end) && (c2.start >= c1.end || c2.end >= c1.start)) {
+            return true;
+        }
+
         return false;
     }
 

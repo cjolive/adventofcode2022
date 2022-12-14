@@ -29,6 +29,6 @@ public class Tests {
     public void testDay4() {
         Day day = new Day4();
         assertEquals(503, day.task1());
-        assertEquals(0, day.task2());
+        assertEquals(827, day.task2());
     }
 }
