@@ -31,4 +31,18 @@ public class Tests {
         assertEquals(503, day.task1());
         assertEquals(827, day.task2());
     }
+
+    @Test
+    public void testDay6() {
+        Day day = new Day6();
+        assertEquals(1538, day.task1());
+        assertEquals(2315, day.task2());
+    }
+
+    @Test
+    public void testDay10() {
+        Day day = new Day10();
+        assertEquals(13060, day.task1());
+        assertEquals(0, day.task2()); // FJUEULRZ
+    }
 }
